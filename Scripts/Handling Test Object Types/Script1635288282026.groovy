@@ -23,12 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
+'home page'
 WebUI.click(findTestObject('Home Page/button_Sign in'))
 
+'login page'
 WebUI.setText(findTestObject('User Account Pages/Login Page/Registration Section/input_Email address'), 'test1990@hotmail.com')
 
 WebUI.click(findTestObject('User Account Pages/Login Page/Registration Section/button_Create an account'))
 
+'registration page'
 WebUI.delay(3)
 
 WebUI.click(findTestObject('User Account Pages/Registration Page/Personal Info Section/radio_Gender_Mr'))
@@ -43,6 +46,11 @@ WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/P
 
 WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/Personal Info Section/select_DoB_Year'), 
     '1990', true)
+
+WebUI.click(findTestObject('User Account Pages/Registration Page/button_Register'))
+
+'my account page'
+WebUI.verifyElementVisible(findTestObject('User Account Pages/My Account Page/h1_My account'))
 
 WebUI.closeBrowser()
 

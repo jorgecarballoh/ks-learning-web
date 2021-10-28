@@ -4,6 +4,7 @@
    <name>button_Sign in</name>
    <tag></tag>
    <elementGuidId>ef5860b7-be8d-48ae-85f9-89b142657eec</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,6 +16,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
    </selectorCollection>

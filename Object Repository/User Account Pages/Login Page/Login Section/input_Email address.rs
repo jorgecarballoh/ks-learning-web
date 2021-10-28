@@ -4,6 +4,7 @@
    <name>input_Email address</name>
    <tag></tag>
    <elementGuidId>e7f4d30f-85fd-4b4a-b798-392b2527d83b</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,12 +12,17 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#account_input</value>
+         <value>input.account_input</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

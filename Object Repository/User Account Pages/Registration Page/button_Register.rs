@@ -4,16 +4,25 @@
    <name>button_Register</name>
    <tag></tag>
    <elementGuidId>1b264891-1109-4746-9122-f421dd275737</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id=&quot;submitAccount&quot;]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id=&quot;submitAccount&quot;]</value>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

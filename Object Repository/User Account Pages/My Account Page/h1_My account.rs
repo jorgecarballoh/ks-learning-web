@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Create an account</name>
+   <name>h1_My account</name>
    <tag></tag>
-   <elementGuidId>72a9ac9e-7ae7-486e-a79c-7b7cca671c95</elementGuidId>
+   <elementGuidId>dfc2d3c6-ab19-4c66-ac44-402eca1d0928</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id=&quot;SubmitCreate&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#SubmitCreate</value>
+         <value>//h1[@class=&quot;page-heading&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.page-heading</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
          <value></value>
       </entry>
    </selectorCollection>
