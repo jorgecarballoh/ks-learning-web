@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password</name>
+   <name>select_State</name>
    <tag></tag>
-   <elementGuidId>98e33a0d-1801-4011-b307-a9dc166e2ad7</elementGuidId>
+   <elementGuidId>6d23fe59-7d2f-4774-af99-c12406cf3f49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//select[@id=&quot;id_state&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;passwd&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

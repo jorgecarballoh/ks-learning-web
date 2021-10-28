@@ -3,19 +3,18 @@
    <description></description>
    <name>input_Email address</name>
    <tag></tag>
-   <elementGuidId>918f1a82-5d80-4c6f-b398-51636037ca64</elementGuidId>
+   <elementGuidId>e7f4d30f-85fd-4b4a-b798-392b2527d83b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#account_input</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id=&quot;email_create&quot;]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#account_input</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Last name</name>
+   <name>select_DoB_Day</name>
    <tag></tag>
-   <elementGuidId>f6b8dd0c-c4c3-437c-8b0e-88fb8088ab16</elementGuidId>
+   <elementGuidId>aaaf1598-faa5-4c85-ba0f-78d4a727e360</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//Select[@id=&quot;days&quot;]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;customer_lastname&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

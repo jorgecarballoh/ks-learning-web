@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>radio_Gender_Mr</name>
+   <name>check_Sign up for Newsletter</name>
    <tag></tag>
-   <elementGuidId>48cf7e28-16c0-408e-a84f-7bd8d3d34e44</elementGuidId>
+   <elementGuidId>1649706b-6155-45b1-8793-0b5634fd9b93</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;optin&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;id_gender1&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <key>IMAGE</key>
          <value></value>
       </entry>
    </selectorCollection>

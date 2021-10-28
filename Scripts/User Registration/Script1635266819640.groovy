@@ -23,27 +23,27 @@ WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
 WebUI.click(findTestObject('Home Page/button_Sign in'))
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_Email address'), 'alertsibooks1@gmail.com')
+WebUI.setText(findTestObject('User Account Pages/Login Page/Registration Section/input_Email address'), 'alertsibooks1@gmail.com')
 
-WebUI.click(findTestObject('User Account Pages/Registration Page/button_Create an account'))
+WebUI.click(findTestObject('User Account Pages/Login Page/Registration Section/button_Create an account'))
 
-WebUI.click(findTestObject('User Account Pages/Registration Page/radio_Gender_Mr'))
+WebUI.click(findTestObject('User Account Pages/Registration Page/Personal Info Section/radio_Gender_Mr'))
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_First name'), 'Jorge Uriel')
+WebUI.setText(findTestObject('User Account Pages/Registration Page/Personal Info Section/input_First name'), 'Jorge Uriel')
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_Last name'), 'Carballo Hernandez')
+WebUI.setText(findTestObject('User Account Pages/Registration Page/Personal Info Section/input_Last name'), 'Carballo Hernandez')
 
-WebUI.setEncryptedText(findTestObject('User Account Pages/Registration Page/input_Password'), '+gfzGSlicnkbGCqZjZIqig==')
+WebUI.setEncryptedText(findTestObject('User Account Pages/Login Page/Login Section/input_Password'), '+gfzGSlicnkbGCqZjZIqig==')
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_Address Line 1'), 'Bo. Santa Rosa')
+WebUI.setText(findTestObject('User Account Pages/Registration Page/Address Section/input_Address Line 1'), 'Bo. Santa Rosa')
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_City'), 'London')
+WebUI.setText(findTestObject('User Account Pages/Registration Page/Address Section/input_City'), 'London')
 
-WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/select_State'), '14', true)
+WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/Address Section/select_State'), '14', true)
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_Postcode'), '98765')
+WebUI.setText(findTestObject('User Account Pages/Registration Page/Address Section/input_Postcode'), '98765')
 
-WebUI.setText(findTestObject('User Account Pages/Registration Page/input_Phone Mobile'), '00505 8192 3645')
+WebUI.setText(findTestObject('User Account Pages/Registration Page/Personal Info Section/input_Phone Mobile'), '00505 8192 3645')
 
 WebUI.click(findTestObject('User Account Pages/Registration Page/button_Register'))
 

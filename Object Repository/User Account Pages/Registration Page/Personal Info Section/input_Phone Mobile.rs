@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_City</name>
+   <name>input_Phone Mobile</name>
    <tag></tag>
-   <elementGuidId>48e73881-c6f7-43c2-ae9c-a36d12534887</elementGuidId>
+   <elementGuidId>167d4577-188f-4c98-95ae-a81eb6ebc35d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;phone_mobile&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;city&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

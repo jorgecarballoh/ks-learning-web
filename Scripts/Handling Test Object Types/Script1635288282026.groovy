@@ -25,7 +25,24 @@ WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
 WebUI.click(findTestObject('Home Page/button_Sign in'))
 
+WebUI.setText(findTestObject('User Account Pages/Login Page/Registration Section/input_Email address'), 'test1990@hotmail.com')
+
+WebUI.click(findTestObject('User Account Pages/Login Page/Registration Section/button_Create an account'))
+
 WebUI.delay(3)
+
+WebUI.click(findTestObject('User Account Pages/Registration Page/Personal Info Section/radio_Gender_Mr'))
+
+WebUI.click(findTestObject('User Account Pages/Registration Page/Personal Info Section/check_Sign up for Newsletter'))
+
+WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/Personal Info Section/select_DoB_Day'), '14', 
+    true)
+
+WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/Personal Info Section/select_DoB_Month'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('User Account Pages/Registration Page/Personal Info Section/select_DoB_Year'), 
+    '1990', true)
 
 WebUI.closeBrowser()
 
