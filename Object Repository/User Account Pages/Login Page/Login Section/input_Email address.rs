@@ -4,25 +4,22 @@
    <name>input_Email address</name>
    <tag></tag>
    <elementGuidId>e7f4d30f-85fd-4b4a-b798-392b2527d83b</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id=&quot;email_create&quot;]</value>
+         <value>//input[@id=&quot;email&quot;]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input.account_input</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

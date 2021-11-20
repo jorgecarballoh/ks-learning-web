@@ -21,17 +21,30 @@ WebUI.openBrowser(GlobalVariable.alertsURL)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open a PROMPT box'))
+Date today = new Date()
+
+String timeNow = today.format('hh:mm a')
+
+WebUI.setText(findTestObject('Object Repository/Window iFrame Alert Pages/Home Page/input_Debug'), timeNow)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open an ALERT box'))
 
 WebUI.waitForAlert(2)
 
+//groovyAlertText = WebUI.getAlertText()
+testCaseAlertText = WebUI.getAlertText()
+
 WebUI.delay(1)
 
-WebUI.setAlertText('Jorge Uriel Carballo')
-
-WebUI.delay(10)
-
 WebUI.acceptAlert()
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Window iFrame Alert Pages/Home Page/input_Debug'), testCaseAlertText)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

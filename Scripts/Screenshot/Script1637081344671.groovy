@@ -17,21 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.alertsURL)
+WebUI.openBrowser('')
 
-WebUI.delay(1)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open a PROMPT box'))
+WebUI.navigateToUrl('automationpractice.com')
 
-WebUI.waitForAlert(2)
+WebUI.delay(2)
 
-WebUI.delay(1)
+WebUI.takeScreenshot('c:/temp/screenshot-1.png')
 
-WebUI.setAlertText('Jorge Uriel Carballo')
+WebUI.verifyElementVisible(findTestObject('User Account Pages/My Account Page/h1_My account'))
 
-WebUI.delay(10)
-
-WebUI.acceptAlert()
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

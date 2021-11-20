@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Data Driven Loop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e297b8d2-1d6b-46a9-848a-12b755d96229</testCaseGuid>
+   <variable>
+      <defaultValue>'jcarballo@test.com'</defaultValue>
+      <description></description>
+      <id>7cf01063-d50c-48b6-93b4-08c4dc7e1419</id>
+      <masked>false</masked>
+      <name>tcEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Root123#%'</defaultValue>
+      <description></description>
+      <id>98bbfcd3-60b5-4722-ba70-72a7bec7a93b</id>
+      <masked>false</masked>
+      <name>tcPassword</name>
+   </variable>
+</TestCaseEntity>

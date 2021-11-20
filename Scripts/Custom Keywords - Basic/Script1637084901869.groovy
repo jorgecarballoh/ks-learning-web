@@ -17,21 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.alertsURL)
+WebUI.openBrowser('')
 
-WebUI.delay(1)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open a PROMPT box'))
+WebUI.navigateToUrl('automationpractice.com')
 
-WebUI.waitForAlert(2)
+WebUI.click(findTestObject('Home Page/button_Sign in'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
-WebUI.setAlertText('Jorge Uriel Carballo')
+CustomKeywords.'common.Utilities.refreshBrowser'()
 
-WebUI.delay(10)
+WebUI.delay(2)
 
-WebUI.acceptAlert()
+CustomKeywords.'common.Utilities.refreshBrowser'()
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('User Account Pages/Login Page/Login Section/input_Email address'), 'jorge.carballoh@gmail.com')
+
+WebUI.setText(findTestObject('User Account Pages/Login Page/Login Section/input_Password'), 'Root123#')
+
+WebUI.verifyElementVisible(findTestObject('User Account Pages/My Account Page/h1_My account'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

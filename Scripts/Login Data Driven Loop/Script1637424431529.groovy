@@ -17,21 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.alertsURL)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open a PROMPT box'))
-
-WebUI.waitForAlert(2)
-
-WebUI.delay(1)
-
-WebUI.setAlertText('Jorge Uriel Carballo')
-
-WebUI.delay(10)
-
-WebUI.acceptAlert()
-
-WebUI.closeBrowser()
+for(int row = 1; row<=findTestData('AutomationP Internal Data').getRowNumbers(); row++) 
+{
+	WebUI.openBrowser('')
+	
+	WebUI.maximizeWindow()
+	
+	WebUI.navigateToUrl('automationpractice.com')
+	
+	WebUI.click(findTestObject('Home Page/button_Sign in'))
+	
+	WebUI.setText(findTestObject('User Account Pages/Login Page/Login Section/input_Email address'),
+		findTestData('AutomationP Internal Data').getValue(1, row))
+	
+	WebUI.setText(findTestObject('User Account Pages/Login Page/Login Section/input_Password'),
+		findTestData('AutomationP Internal Data').getValue(2, row))
+	
+	WebUI.verifyElementVisible(findTestObject('User Account Pages/My Account Page/h1_My account'))
+	
+	WebUI.delay(3)
+	
+	WebUI.closeBrowser()
+}
 

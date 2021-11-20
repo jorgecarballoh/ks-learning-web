@@ -3,20 +3,17 @@
    <description></description>
    <name>input_Email address</name>
    <tag></tag>
-   <elementGuidId>918f1a82-5d80-4c6f-b398-51636037ca64</elementGuidId>
+   <elementGuidId>aaedef60-7b3a-4955-afcb-0e77dcf9b2d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id=&quot;email_create&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value>#account_input</value>
+         <value>#is_required validate account_input form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>

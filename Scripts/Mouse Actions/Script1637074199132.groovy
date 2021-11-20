@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.alertsURL)
+WebUI.openBrowser('')
 
-WebUI.delay(1)
+WebUI.navigateToUrl('http://automationpractice.com/index.php')
 
-WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open a PROMPT box'))
+WebUI.click(findTestObject('Object Repository/temp/Page_My Store/a_Faded Short Sleeve T-shirts'))
 
-WebUI.waitForAlert(2)
+WebUI.click(findTestObject('Object Repository/temp/Page_Faded Short Sleeve T-shirts - My Store/span_Add to cart'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/temp/Page_Faded Short Sleeve T-shirts - My Store/span_Continue shopping'))
 
-WebUI.setAlertText('Jorge Uriel Carballo')
+WebUI.click(findTestObject('Object Repository/temp/Page_Faded Short Sleeve T-shirts - My Store/img_Call us now_logo img-responsive'))
 
-WebUI.delay(10)
+WebUI.mouseOver(findTestObject('temp/Page_My Store/a_View my shopping cart'))
 
-WebUI.acceptAlert()
+WebUI.waitForElementVisible(findTestObject('temp/Page_My Store/button_Check out'), 3)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('temp/Page_My Store/button_Check out'))
 

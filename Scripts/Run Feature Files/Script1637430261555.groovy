@@ -17,21 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.alertsURL)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Window iFrame Alert Pages/Home Page/button_Open a PROMPT box'))
-
-WebUI.waitForAlert(2)
-
-WebUI.delay(1)
-
-WebUI.setAlertText('Jorge Uriel Carballo')
-
-WebUI.delay(10)
-
-WebUI.acceptAlert()
-
-WebUI.closeBrowser()
-
+CucumberKW.runFeatureFolder('Include/features')

@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('automationpractice.com')
+
+WebUI.click(findTestObject('Home Page/button_Sign in'))
+
+WebUI.setText(findTestObject('User Account Pages/Login Page/Login Section/input_Email address'), '')
+
+WebUI.setText(findTestObject('User Account Pages/Login Page/Login Section/input_Password'), '')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.verifyElementVisible(findTestObject('User Account Pages/My Account Page/h1_My account'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
+

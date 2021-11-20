@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email address</name>
+   <name>a_View my shopping cart</name>
    <tag></tag>
-   <elementGuidId>918f1a82-5d80-4c6f-b398-51636037ca64</elementGuidId>
+   <elementGuidId>b04f4746-3f37-4d27-8f91-b63ead18cf39</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id=&quot;email_create&quot;]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#account_input</value>
+         <key>XPATH</key>
+         <value>//a[@title=&quot;View my shopping cart&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

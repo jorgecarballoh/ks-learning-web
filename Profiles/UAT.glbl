@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>UAT</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'file:///C:/code/learnks1-home.html'</initValue>
-      <name>alertsURL</name>
+      <initValue>''</initValue>
+      <name>WebsiteURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

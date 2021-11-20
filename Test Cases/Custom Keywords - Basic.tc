@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>Custom Keywords - Basic</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d3a1c2fd-6dcd-47d8-8dc6-d9a506411422</testCaseGuid>
+   <testCaseGuid>c38b5741-3371-4be9-8323-7d58de00d5b1</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ab7f1b3c-54fe-43f0-918e-4e1295f7e835</id>
+      <id>6d7a02c0-e94a-4d88-8641-ac71fd5b8935</id>
       <masked>false</masked>
       <name>EmailAddress</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>721ac555-0477-470d-b6ad-8163c0954d17</id>
+      <id>13f32cde-7f74-493c-8f50-851da29e4646</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
